@@ -67,7 +67,7 @@ with st.expander("🙏 SafePay AI: Oka chinna vinnapam - Ma Lakshyam"):
 
     Mee sayam kevalam nake kadhu, mosapothunna vandhala mandhiki oka rakshana kavachamla maruthundi. Padhi mandhiki melu jarige ee prayanamlo meeru bhagaswamyulu avvandi.
     """)
-    st.info("Support via UPI: *[8639471610@ybl]*") # Add your UPI ID here!
+    st.info("Support via UPI: *[8639471410@ybl]*") # Add your UPI ID here!
 
 # 6. Sidebar
 st.sidebar.title("SafePay AI")

@@ -82,7 +82,7 @@ with col1:
     st.success("UPI ID: **8639471410@ybl**")
 with col2:
     try:
-        st.image("qr_code.png", caption="Scan & Pay ₹20", width=180)
+        st.image("qr.png", caption="Scan & Pay ₹20", width=180)
     except:
     st.image("https://raw.githubusercontent.com/murthyAI/SafePay-AI/main/qr.png", caption="Scan & Pay ₹20", width=180)
 

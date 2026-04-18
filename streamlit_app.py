@@ -81,12 +81,7 @@ with col1:
     # IKKADA MEE CORRECT UPI ID IVVANDI
     st.success("UPI ID: **8639471410@ybl**")
 with col2:
-    try:
-        st.image("qr.png", caption="Scan & Pay ₹20", width=180)
-    except:
-    st.image("https://raw.githubusercontent.com/murthyAI/SafePay-AI/main/qr.png", caption="Scan & Pay ₹20", width=180)
-
-# 6. Sidebar
+        st.image("https://raw.githubusercontent.com/murthyAI/SafePay-AI/main/qr.png", caption="Scan & Pay 20", width=180)
 st.sidebar.title("SafePay AI")
 st.sidebar.info("💡 Ee app ni save cheyandi: browser options (three dots) loki velli 'Add to Home Screen' click cheyandi.")
 st.sidebar.caption("© 2026 Protecting your money.")

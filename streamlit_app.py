@@ -84,7 +84,7 @@ with col2:
     try:
         st.image("qr_code.png", caption="Scan & Pay ₹20", width=180)
     except:
-        st.warning("QR Code loading... (Image file 'qr_code.png.jpg' check cheyandi)")
+        st.warning("QR Code loading... (Image file 'qr.png' check cheyandi)")
 
 # 6. Sidebar
 st.sidebar.title("SafePay AI")

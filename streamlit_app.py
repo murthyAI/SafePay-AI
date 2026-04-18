@@ -79,12 +79,12 @@ col1, col2 = st.columns([1, 1])
 with col1:
     st.info("Support Amount: *₹20*")
     # IKKADA MEE CORRECT UPI ID IVVANDI
-    st.success("UPI ID: *[8639471410@ybl]*")
+    st.success("UPI ID: **8639471410@ybl**")
 with col2:
     try:
         st.image("qr_code.png", caption="Scan & Pay ₹20", width=180)
     except:
-        st.warning("QR Code loading... (Image file 'qr_code.png' check cheyandi)")
+        st.warning("QR Code loading... (Image file 'qr_code.png.jpg' check cheyandi)")
 
 # 6. Sidebar
 st.sidebar.title("SafePay AI")

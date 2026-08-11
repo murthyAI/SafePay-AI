@@ -38,6 +38,7 @@ if st.button("Scan for Scams 🔍"):
             if any(s in urls[0] for s in ["bit.ly", "tinyurl", "t.co", "short", "click", "web.app"]):
                 risk_score += 40
                 findings.append("Danger: Hidden/Short link detected.")
+                risk_score = min(risk_score, 100)
 
         st.divider()
         result_text = ""
